@@ -10,7 +10,10 @@
     "both": "concurrently \"npm run server\" \"npm run client\" \"npm run dashboard\""
   },
   "dependencies": {
+    "react": "^18.0.0",
     "concurrently": "^8.2.1",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.5",
     "react-scripts": "^5.0.1"
   },
   "browserslist": {
