@@ -1,0 +1,17 @@
+{
+  "name": "zerodha-clone",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "npm run both",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && npm start",
+    "dashboard": "cd dashboard && npm start",
+    "both": "concurrently \"npm run server\" \"npm run client\" \"npm run dashboard\""
+  },
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "dotenv": "^16.4.7",
+    "react-scripts": "^5.0.1"
+  }
+}
